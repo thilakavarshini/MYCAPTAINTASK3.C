@@ -3,8 +3,8 @@
 int main()
 
 {
-   int s1,s2,s3,s4,s5,s6;
-   float avg;
+   int s1,s2,s3,s4,s5,s6; // s denotes the subject marks
+   float avg;// avg represent the average of six subject marks
    printf("enter the marks");
    scanf("%d%d%d%d%d%d",&s1,&s2,&s3,&s4,&s5,&s6);
    avg= (s1 + s2 + s3+ s4+ s5 + s6 )/6;
